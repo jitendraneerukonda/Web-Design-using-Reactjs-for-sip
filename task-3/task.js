@@ -33,7 +33,7 @@ function basic1(det){
 	child1.appendChild(rollno);
 
 	var st=document.createElement("a");
-	st.href ="https://www.youtube.com/";
+	st.href ="https://jitendraneerukonda.github.io/Web-Design-using-Reactjs-for-sip/task-1/resume.html ";
 	st.textContent=det.static;
 	child1.appendChild(st);
 }
@@ -54,7 +54,7 @@ function basic2(info1){
 	child2.appendChild(rollno);
 
 	var st=document.createElement("a");
-	st.href ="https://www.w3schools.com/";
+	st.href ="https://jitendraneerukonda.github.io/Web-Design-using-Reactjs-for-sip/project/project.html";
 	st.textContent=info1.dynamic;
 	child2.appendChild(st);
 
