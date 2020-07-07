@@ -1,0 +1,133 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#mr{
+			margin-right: auto;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width intial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-dark">
+		<ul class="navbar-nav mr-auto" style="word-spacing: 20px">
+			<li class="nav-item">
+				<a href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="profile.html">Profile</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="login.html">Login</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="login.html">Drop</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="sample.html">Drop</a>
+			</li>
+		</ul>
+	</nav>
+<div>
+	<div>
+		<h3>Imgage-1</h3>
+		<h3>Imgage-2</h3>
+	</div>
+	<div>
+		<h3>Imgage-3</h3>
+		<h3>Imgage-4</h3>
+	</div>
+</div>
+
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  	.row>div{
+			/*border:solid black;*/
+		}
+	.main{
+		position:absolute;
+    	top: 50%;
+    	left: 50%;
+    	width:30em;
+    	height:18em;
+    	margin-top: -9em; 
+    	margin-left: -15em;
+	}
+	.col-md-4{
+		border-style: solid;
+		padding: 10px;
+	}
+	.secondary{
+		border-style: solid;
+		padding: 10px;
+	}
+	hr {
+		border:none;
+		back-ground-color: #ADD8e6;
+		color: #ADD8E6;
+		height: 1px;
+		width: 80%;
+}	
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="profilecard.html">Profile</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="login.html">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="resume.html">Resume</a>
+    </li>
+   <!--  <li class="nav-item">
+      <a class="nav-link" href="login.html">Drop Down</a>
+    </li> -->
+    <li class="nav-item">
+    	<div class="dropdown">
+			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Courses</button>
+			<div class="dropdown-menu">
+				<a href="" class="dropdown-item">HTML</a>
+				<a href="" class="dropdown-item">CSS</a>
+				<a href="" class="dropdown-item">JavaScript</a>
+				<a href="" class="dropdown-item">XML</a>
+			</div>
+		</div>
+    </li>
+  </ul>
+</nav>
+<div class="main">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="secondary"><img src="image/male.svg" align="center" width="100px" height="100px" ></div>
+			<hr >
+			<div class="secondary"><img src="image/male.svg" align="center" width="100px" height="100px"></div>
+		</div>
+		<div class="col-md-4 ml-auto">
+			<div class="secondary"><img src="image/male.svg" align="center" width="100px" height="100px"></div>
+			<hr>
+			<div class="secondary"><img src="image/male.svg" align="center" width="100px" height="100px"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

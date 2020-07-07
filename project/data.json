@@ -1,0 +1,45 @@
+{
+	"details":{
+		"image":"user.svg",
+		"name":"jitendra",
+		"email":"jitendraneerukonda@outlook.com",
+		"number":"9705851863",
+		"address":"guntur"
+	},
+	"carrerobjective":{
+		"info":"To apadat newly emerging technologies "
+	},
+	"educationalqualification":[
+	{
+		"institute":"vasireddy venkatadri institute of technology",
+		"degree":"B.tech",
+		"passedoutyear":"2020",
+		"percentage":"75%"
+	},
+	{
+		"institute":"bhashyam clg",
+		"degree":"Intermediate",
+		"passedoutyear":"2016",
+		"percentage":"90%"
+	},
+	{
+		"institute":"bhashyam school",
+		"degree":"ssc",
+		"passedoutyear":"2014",
+		"percentage":"97%"
+	}
+],
+	"technicalskills":[{
+		"title":"Programming language",
+		"info":["c,c++,java,R,python"]
+	},
+	{
+		"title":"Databases",
+		"info":["oracle,sql,mysql,TinyDB"]
+	},
+	{
+		"title":"Operating Systems",
+		"info":["windows,mac,linux"]
+	}
+]
+}

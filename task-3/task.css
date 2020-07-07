@@ -1,0 +1,115 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.child1{
+	width: 30%;
+	border: 2px solid #ddd;
+	padding :4%;
+	margin :1%;
+	border-radius: 10%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.child1 img{
+	width:80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px solid black;
+	border-radius: 50%;
+	box-shadow: 2px 3px 4px red;
+}
+
+.child2{
+	width: 30%;
+	border: 2px solid #ddd;
+	padding :4%;
+	margin :1%;
+	border-radius: 10%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.child2 img{
+	width:80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px solid black;
+	border-radius: 50%;
+	box-shadow: 2px 3px 4px red;
+}
+
+a {
+    padding: 10px 20px;
+    background: #fff;
+    border:2px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #111;
+    opacity: 1;
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px){
+.parent{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.child1{
+	width: 80%;
+	border: 2px solid #ddd;
+	padding :4%;
+	margin :1%;
+	border-radius: 10%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.child1 img{
+	width:80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px solid black;
+	border-radius: 50%;
+	box-shadow: 2px 3px 4px red;
+}
+
+.child2{
+	width: 80%;
+	border: 2px solid #ddd;
+	padding :4%;
+	margin :1%;
+	border-radius: 10%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.child2 img{
+	width:80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border:2px solid black;
+	border-radius: 50%;
+	box-shadow: 2px 3px 4px red;
+}
+
+a {
+    padding: 10px 20px;
+    background: #fff;
+    border:2px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #111;
+    opacity: 1;
+}
+}
