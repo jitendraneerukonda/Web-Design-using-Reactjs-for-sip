@@ -33,7 +33,7 @@ function basic1(det){
 	child1.appendChild(rollno);
 
 	var st=document.createElement("a");
-	st.href ="https://jitendraneerukonda.github.io/Web-Design-using-Reactjs-for-sip/task-1%20Sai%20sir/resume.html";
+	st.href ="https://jitendraneerukonda.github.io/Web-Design-using-Reactjs-for-sip/task-1/resume.html ";
 	st.textContent=det.static;
 	child1.appendChild(st);
 }
